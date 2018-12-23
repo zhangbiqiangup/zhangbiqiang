@@ -25,3 +25,16 @@ class SyncThread implements Runnable {
       method();
    }
 }
+/**
+输出结果：
+SyncThread2:0
+SyncThread2:1
+SyncThread2:2
+SyncThread2:3
+SyncThread2:4
+SyncThread1:5
+SyncThread1:6
+SyncThread1:7
+SyncThread1:8
+SyncThread1:9
+*/
